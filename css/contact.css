@@ -1,19 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html ,body{
+
+html, body {
   font-family: "Livvic", sans-serif;
 }
+
 :root {
   --text-light: rgba(255, 255, 255, 1);
 }
+
 .contact-section {
   background-color: #014e56;
   color: white;
   padding: 60px 20px;
-  
 }
 
 .contact-container {
@@ -32,14 +34,12 @@ html ,body{
 
 .contact-subheading {
   color: #f67e7e;
-
   margin: 20px 0 10px;
   font-family: Livvic;
-font-weight: 700;
-font-size: 32px;
-line-height: 48px;
-letter-spacing: 0px;
-
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0px;
 }
 
 .contact-list {
@@ -51,13 +51,13 @@ letter-spacing: 0px;
 .contact-item p {
   margin: 12px 0;
   font-family: Livvic;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0px;
-
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
 }
-.contact-item{
+
+.contact-item {
   display: flex;
   align-items: center;
   gap: 23px;
@@ -84,7 +84,6 @@ letter-spacing: 0px;
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  
 }
 
 .contact-form button {
@@ -104,7 +103,6 @@ letter-spacing: 0px;
   color: white;
 }
 
-
 .footer {
   background-color: #002529;
   color: white;
@@ -121,7 +119,7 @@ letter-spacing: 0px;
 }
 
 .footer-logo {
-  font-family: 'Arial Black', sans-serif;
+  font-family: "Arial Black", sans-serif;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -157,8 +155,9 @@ letter-spacing: 0px;
   text-align: right;
   font-size: 14px;
 }
+
 .navbar {
-  background-color: rgba(1, 78, 86, 1);
+  background-color: rgb(1, 78, 86);
   padding-top: 73px;
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@ html,
 body {
   font-family: "Livvic", sans-serif;
   width: 100%;
-  background-color: rgba(0,0,0,1);
+  background-color: rgb(0, 0, 0);
 }
 
 :root {
@@ -16,8 +16,7 @@ body {
 }
 
 nav {
-  background-color: rgba(1, 78, 86, 1);
-    
+  background-color: rgb(1, 78, 86);
 }
 
 .navbar {
@@ -91,7 +90,7 @@ nav {
 }
 
 .section-one {
-  background-color: rgba(0, 64, 71, 1);
+  background-color: rgb(0, 64, 71);
   padding: 140px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,131 +105,141 @@ nav {
   text-align: center;
   color: var(--text-light);
 }
-.cards{
 
+.cards {
   padding-top: 64px;
   display: flex;
-  
   flex-direction: column;
   gap: 48px;
 }
-.card{
-  background-color: rgba(1, 47, 52, 1);
+
+.card {
+  background-color: rgb(1, 47, 52);
   width: 350px;
-height: 253px;
-padding: 32px 24px 56px;
+  height: 253px;
+  padding: 32px 24px 56px;
 }
-.card-img{
+
+.card-img {
   display: flex;
   justify-content: center;
 }
-.card-name{
+
+.card-name {
   padding-top: 13px;
   font-family: Livvic;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0px;
-text-align: center;
-color: rgba(121, 200, 199, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(121, 200, 199);
 }
-.card-p{
+
+.card-p {
   color: var(--text-light);
   font-family: Livvic;
-font-weight: 500;
-font-size: 15px;
-line-height: 25px;
-letter-spacing: 0px;
-text-align: center;
-
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
 }
+
 .card-plus {
   position: relative;
-  
 }
 
-.pluscha{
+.pluscha {
   position: absolute;
   width: 56px;
   height: 56px;
   top: 20px;
   left: 130px;
 }
-.cards-top{
+
+.cards-top {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
-.card-6-img{
+
+.card-6-img {
   padding-top: 24px;
   display: flex;
   justify-content: center;
 }
-.card-p1{
+
+.card-p1 {
   padding-top: 8px;
   font-family: Livvic;
-font-weight: 600;
-font-size: 15px;
-line-height: 25px;
-letter-spacing: 0px;
-text-align: center;
-color: var(--text-light);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--text-light);
 }
-.section-two-text{
-  font-family: Livvic;
-font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-letter-spacing: 0px;
-text-align: center;
-color: var(--text-light);
-}
-.section-two{
-  background-color: rgba(1, 47, 52, 1);
-}
-.navbar{
-position: relative;  
-}
-.navbar-decoraatsia-1{
-  position: absolute;
 
-  
+.section-two-text {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.section-two {
+  background-color: rgb(1, 47, 52);
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar-decoraatsia-1 {
+  position: absolute;
   top: 317px;
   left: 1340px;
   z-index: 1;
 }
 
-.logos{
+.logos {
   padding-top: 70px;
   padding-bottom: 151px;
   display: flex;
   gap: 80px;
   justify-content: center;
 }
-.section-three img{
+
+.section-three img {
   padding-top: 56px;
 }
-.section-three{
-  background-color: rgba(246, 126, 126, 1);
+
+.section-three {
+  background-color: rgb(246, 126, 126);
   display: flex;
 }
-.section-three-middle-h2{
-  font-family: Livvic;
-font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-letter-spacing: 0px;
-color: rgba(1, 47, 52, 1);
 
+.section-three-middle-h2 {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgb(1, 47, 52);
 }
-.section-three-middle{
+
+.section-three-middle {
   display: flex;
   margin: 0 auto;
   align-items: center;
   gap: 260px;
 }
-.section-three-middle-btn{
-  
+
+.section-three-middle-btn {
   font-family: Livvic;
   font-weight: 600;
   font-size: 18px;
@@ -238,14 +247,14 @@ color: rgba(1, 47, 52, 1);
   letter-spacing: 0px;
   width: 153px;
   height: 48px;
-  
   background: none;
   color: var(--text-light);
   border: 2px solid var(--text-light);
   border-radius: 30px;
 }
+
 .footer {
-  background-color: rgba(0, 37, 41, 1);
+  background-color: rgb(0, 37, 41);
   color: white;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
@@ -261,7 +270,6 @@ color: rgba(1, 47, 52, 1);
 }
 
 .footer-logo {
-  
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -271,8 +279,6 @@ color: rgba(1, 47, 52, 1);
   margin-right: 20px;
   text-decoration: none;
 }
-
-
 
 .footer-contact p {
   margin: 4px 0;
